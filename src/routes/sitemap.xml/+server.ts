@@ -4,7 +4,7 @@ export const prerender = true;
 
 export const GET: RequestHandler = async () => {
 	// Define your site's base URL - update this to your actual domain
-	const baseUrl = 'https://fantyboard.app/';
+	const baseUrl = 'https://yourboard.app/';
 
 	// Static pages in your app
 	const staticPages = [

@@ -44,7 +44,7 @@ A modern, interactive fantasy draft board application built with **SvelteKit 2**
 ```bash
 # Clone the repository
 git clone <repository-url>
-cd fanuegodraft
+cd fantyboard
 
 # Install dependencies
 npm install
