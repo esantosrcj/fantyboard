@@ -2,7 +2,7 @@
 	import { isConfigured } from '$lib/stores/draft';
 
 	// Form data
-	export let numberOfTeams = 10;
+	export let numberOfTeams = 8;
 	export let numberOfRounds = 15;
 	export let draftType: 'snake' | 'linear' = 'snake';
 </script>
@@ -23,7 +23,7 @@
 			id="numberOfTeams"
 			bind:value={numberOfTeams}
 			min="6"
-			max="20"
+			max="8"
 			step="1"
 			disabled={$isConfigured}
 			class="h-2 w-full cursor-pointer appearance-none rounded-lg bg-dark-600 disabled:cursor-not-allowed"
@@ -31,7 +31,7 @@
 		<div class="mt-1 flex justify-between text-sm text-gray-400">
 			<span>6</span>
 			<span class="font-semibold text-gray-300">{numberOfTeams} teams</span>
-			<span>20</span>
+			<span>8</span>
 		</div>
 	</div>
 
@@ -48,7 +48,7 @@
 			id="numberOfRounds"
 			bind:value={numberOfRounds}
 			min="10"
-			max="20"
+			max="15"
 			step="1"
 			disabled={$isConfigured}
 			class="h-2 w-full cursor-pointer appearance-none rounded-lg bg-dark-600 disabled:cursor-not-allowed"
@@ -56,7 +56,7 @@
 		<div class="mt-1 flex justify-between text-sm text-gray-400">
 			<span>10</span>
 			<span class="font-semibold text-gray-300">{numberOfRounds} rounds</span>
-			<span>20</span>
+			<span>15</span>
 		</div>
 	</div>
 

@@ -111,8 +111,8 @@
 									<strong>Minimum requirements:</strong>
 								</p>
 								<ul class="space-y-1 text-sm text-gray-300">
-									<li>• Number of teams: 6-20</li>
-									<li>• Number of rounds: 10-20</li>
+									<li>• Number of teams: 6-8</li>
+									<li>• Number of rounds: 10-15</li>
 								</ul>
 							</div>
 							<div

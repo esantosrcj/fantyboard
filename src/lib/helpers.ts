@@ -2,7 +2,7 @@ import type { DraftSettings, DraftedPlayer } from './types';
 
 export const DEFAULT_SETTINGS: DraftSettings = {
 	leagueName: '',
-	numberOfTeams: 10,
+	numberOfTeams: 8,
 	numberOfRounds: 15,
 	teamNames: [],
 	draftType: 'snake'
@@ -15,10 +15,10 @@ export function validateSettings(
 		typeof settings.leagueName === 'string' &&
 		typeof settings.numberOfTeams === 'number' &&
 		settings.numberOfTeams >= 6 &&
-		settings.numberOfTeams <= 20 &&
+		settings.numberOfTeams <= 8 &&
 		typeof settings.numberOfRounds === 'number' &&
 		settings.numberOfRounds >= 10 &&
-		settings.numberOfRounds <= 20 &&
+		settings.numberOfRounds <= 15 &&
 		Array.isArray(settings.teamNames) &&
 		typeof settings.draftType === 'string' &&
 		(settings.draftType === 'snake' || settings.draftType === 'linear')
